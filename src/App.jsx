@@ -1,6 +1,7 @@
 //import { useState } from 'react'
 import heroImg from './assets/profile-picture.jpg'
 import './App.css'
+import AccordionItem from './components/accordion.jsx'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -28,7 +29,9 @@ function App() {
 
         <section className='experience'>
           <h2>Experience</h2>
-          <p></p>
+          <AccordionItem title="test">
+            <p>test</p>
+          </AccordionItem>
         </section>
       </div>
     </>
