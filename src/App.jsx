@@ -1,7 +1,7 @@
 //import { useState } from 'react'
 import heroImg from './assets/profile-picture.jpg'
 import './App.css'
-import AccordionItem from './components/accordion.jsx'
+import Accordion from './components/accordion.jsx'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -29,9 +29,17 @@ function App() {
 
         <section className='experience'>
           <h2>Experience</h2>
-          <AccordionItem title="test">
-            <p>test</p>
-          </AccordionItem>
+          <Accordion title="Phillip Capital">
+            <h4>Apr 2025 - Present</h4>
+            <p>I develop and maintain enterprise applications and reporting solutions that support business and finance operations. My responsibilities include building RESTful APIs and back-end services using C# (.NET), developing front-end features with Angular, optimizing SQL Server queries and batch processes, and creating SSRS reports. I also automate operational workflows using PowerShell, manage WordPress customizations, and provide production support, including incident resolution, disaster recovery activities, and data migration.</p>
+          </Accordion>
+          <Accordion title="AHAM Asset Management">
+            <h4>Dec 2023 - Mar 2025</h4>
+            <p>I contributed to the development and maintenance of internal business applications using ASP.NET, React.js, and ASP.NET Core microservices. My work involved designing APIs, developing data integration solutions with SSIS, optimizing SQL Server databases, and implementing business workflows using Nintex K2. I also built automation tools with Python and leveraged AWS and Datadog to monitor application performance, troubleshoot production issues, and ensure system reliability.</p>
+          </Accordion>
+          <Accordion title="Fujitsu">
+            <p>As a System Engineer, I developed and enhanced enterprise application modules using ASP.NET, Spring Boot, TypeScript, and SQL. I was responsible for implementing new features, debugging issues, executing test plans, and analyzing application logs to maintain system quality. Additionally, I prepared technical documentation in both English and Japanese and developed supporting services such as automated email notification systems.</p>
+          </Accordion>
         </section>
       </div>
     </>
