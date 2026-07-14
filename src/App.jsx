@@ -2,6 +2,7 @@
 import heroImg from './assets/profile-picture.jpg'
 import './App.css'
 import Accordion from './components/accordion.jsx'
+import Card from './components/card.jsx';
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -40,6 +41,18 @@ function App() {
           <Accordion title="Fujitsu">
             <p>As a System Engineer, I developed and enhanced enterprise application modules using ASP.NET, Spring Boot, TypeScript, and SQL. I was responsible for implementing new features, debugging issues, executing test plans, and analyzing application logs to maintain system quality. Additionally, I prepared technical documentation in both English and Japanese and developed supporting services such as automated email notification systems.</p>
           </Accordion>
+        </section>
+
+        <section className='project'>
+          <h2>Projects</h2>
+          <Card title="RFID Shopping Cart">
+            <p>Developed a smart shopping cart prototype using Arduino, Raspberry Pi, MFRC522 RFID, and NRF24L01 wireless modules. The system automatically detects products using RFID tags, updates the shopping cart in real time, and calculates the total purchase amount. This project demonstrates the integration of embedded systems, RFID technology, and wireless communication to improve the retail checkout experience.</p>
+            <p>Tech Stack:</p>
+            <p>Arduino • Raspberry Pi • IoT • C++ • RFID MFRC522 • NRF24L01 Wireless Transceiver</p>
+            <a href="url">Live Demo</a>
+            <a href="url">GitHub</a>
+            <a href="url">Case Study</a>
+          </Card>
         </section>
       </div>
     </>
