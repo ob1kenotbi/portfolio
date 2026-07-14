@@ -49,9 +49,9 @@ function App() {
             <p>Developed a smart shopping cart prototype using Arduino, Raspberry Pi, MFRC522 RFID, and NRF24L01 wireless modules. The system automatically detects products using RFID tags, updates the shopping cart in real time, and calculates the total purchase amount. This project demonstrates the integration of embedded systems, RFID technology, and wireless communication to improve the retail checkout experience.</p>
             <p>Tech Stack:</p>
             <p>Arduino • Raspberry Pi • IoT • C++ • RFID MFRC522 • NRF24L01 Wireless Transceiver</p>
-            <a href="url">Live Demo</a>
-            <a href="url">GitHub</a>
-            <a href="url">Case Study</a>
+            <a href="#">Live Demo</a>
+            <a href="#">GitHub</a>
+            <a href="#">Case Study</a>
           </Card>
         </section>
       </div>
